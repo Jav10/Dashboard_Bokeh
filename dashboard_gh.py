@@ -1,11 +1,11 @@
 #Import modules
 import pandas as pd
 import numpy as np
-from bokeh.io import curdoc, output_file, show
-from bokeh.models import ColumnDataSource, CategoricalColorMapper, Slider, HoverTool, Select
+from bokeh.io import curdoc
+from bokeh.models import ColumnDataSource,Select
 from bokeh.plotting import figure
 from bokeh.palettes import Spectral6, YlOrBr #@UnresolvedImport
-from bokeh.layouts import widgetbox, row, column
+from bokeh.layouts import widgetbox, row
 from bokeh.models.widgets import Panel, Tabs
 from bokeh.transform import cumsum
 
