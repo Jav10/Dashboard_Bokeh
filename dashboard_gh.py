@@ -9,7 +9,7 @@ from bokeh.layouts import widgetbox, row, column
 from bokeh.models.widgets import Panel, Tabs
 from bokeh.transform import cumsum
 
-df = pd.read_csv('..\datasets\StudentsPerformance.csv')
+df = pd.read_csv('StudentsPerformance.csv')
 
 #Pie charts for the catogorical varibles
 def pie_chart(attr, old, new):
