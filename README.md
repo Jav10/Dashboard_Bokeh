@@ -6,3 +6,6 @@ bokeh serve dashboard_gh.py
 
 This will start a local server to see the project in the internet browser.
 The dataset is StudentPerformance.csv, you can find it on kaggle.com.
+
+
+![Histogram](https://github.com/Jav10/Dashboard_Bokeh/blob/master/Images/hist.png)
