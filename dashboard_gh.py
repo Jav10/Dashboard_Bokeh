@@ -103,8 +103,9 @@ def update_scatter(attr, old, new):
 
 
 source_s = ColumnDataSource(data={'x': df['math score'], 'y': df['reading score']})
-scatter = figure(title='Math Score vs Reading Score', tools='', background_fill_color="#fafafa")
-scatter.circle('x', 'y', line_color="#ff8888", line_width=4, alpha=0.7, source=source_s)
+scatter = figure(title='Math Score vs Reading Score', tools='box_select', background_fill_color="#fafafa")
+scatter.circle('x', 'y', line_color="#ff8888", line_width=4, alpha=0.7, source=source_s, selection_color='red',
+               nonselection_alpha=0.1)
 
 scores1_select = Select(
     options=['math score', 'reading score', 'writing score'],
