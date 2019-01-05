@@ -2,7 +2,7 @@
 #Dashboard_Bokeh v1.0
 #Autor: Javier Arturo Hernández Sosa
 #Date: 1/Enero/2019
-#Description: Make a dashboard with library Bokeh
+#Description: Make a dashboard with Bokeh library
 """
 
 #Import modules
