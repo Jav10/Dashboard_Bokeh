@@ -1,3 +1,10 @@
+"""
+#Dashboard_Bokeh v1.0
+#Autor: Javier Arturo Hernández Sosa
+#Date: 1/Enero/2019
+#Description: Make a dashboard with library Bokeh
+"""
+
 #Import modules
 import pandas as pd
 import numpy as np
