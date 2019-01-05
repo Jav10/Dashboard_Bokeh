@@ -12,5 +12,6 @@ The dataset is StudentPerformance.csv, you can find it on kaggle.com.
 ![Histogram](https://github.com/Jav10/Dashboard_Bokeh/blob/master/Images/hist.png)
 ![Scatter 1](https://github.com/Jav10/Dashboard_Bokeh/blob/master/Images/scatter1.png)
 ![Scatter 2](https://github.com/Jav10/Dashboard_Bokeh/blob/master/Images/scatter2.png)
+![Scatter 3](https://github.com/Jav10/Dashboard_Bokeh/blob/master/Images/scatter3.png)
 
 
